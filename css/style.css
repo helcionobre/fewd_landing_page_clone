@@ -64,3 +64,6 @@ div {
 	height: 70px;
 	margin: 0 auto;
 }
+.top-navigation > .content > .logo {
+	margin: 14px;
+}
