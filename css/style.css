@@ -73,20 +73,22 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
-	font-family: 'Roboto', sans-serif; 
 	font-size: 16px; 
 	color: #838994; 
+}
+.content {
+	font-family: 'Roboto', sans-serif; 
 	letter-spacing: 0.03em;
 }
-.top-navigation > .content > .logo {
+.top-navigation .logo {
 	/*margin-top: 15px*/
 	height: 70px;
 }
-.top-navigation > .content > .links {
+.top-navigation .links {
 	float: right;
 	margin-top: 15px;
 }
-.top-navigation > .content > .links > li {
+.top-navigation .links > li {
 	display: inline-block;
 	margin-left: 37px;
 }
