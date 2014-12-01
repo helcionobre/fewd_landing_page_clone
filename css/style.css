@@ -63,19 +63,15 @@ div {
 /* Start of Custom Styles */
 .content {
 	padding: 0 15px;
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;/* put container right in the middle */
+	letter-spacing: 0.03em;
 }
 
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff
-}
-.top-navigation > .content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto; /* put container right in the middle */
-}
-.content {
-	letter-spacing: 0.03em;
 }
 .top-navigation .logo {
 	/*margin-top: 15px - why not?*/
