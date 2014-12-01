@@ -72,13 +72,13 @@ div {
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
-	margin: 0 auto;
+	margin: 0 auto; /* put container right in the middle */
 }
 .content {
 	letter-spacing: 0.03em;
 }
 .top-navigation .logo {
-	/*margin-top: 15px*/
+	/*margin-top: 15px - why not?*/
 	height: 70px;
 }
 .top-navigation .links {
