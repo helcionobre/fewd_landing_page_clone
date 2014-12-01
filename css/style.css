@@ -54,6 +54,7 @@ table {
 body {
     
    background-color: LightGray;
+   font-family: 'Roboto', sans-serif; /* apply to whole doc */
 }
 
 div {
@@ -105,3 +106,15 @@ div {
 	background-size: cover;
 	height: 45.938rem;
 }
+h1, h3 {
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+}
+h1 {
+	font-size: 3rem
+}
+h3 {
+	font-size: 1.5rem;
+}
+
