@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: LightGray;
+   font-family: 'Roboto', sans-serif; /* apply to whole doc */
 }
 ol, ul {
 	list-style: none;
@@ -51,33 +53,34 @@ table {
 
 /* Trick to control borders and body */
 
-body {
-    
-   background-color: LightGray;
-   font-family: 'Roboto', sans-serif; /* apply to whole doc */
-}
 
 div {
     border: 1px solid Chocolate;
 }
 
 /* Start of Custom Styles */
-.content {
+ .content {
 	padding: 0 15px;
-	width: 970px;
-	margin: 0 auto;/* put container right in the middle */
+	width: 60%;
+	margin: 0 auto; /* put container right in the middle */
 	letter-spacing: 0.03em;
-}
+} 
+
 
 /* Navigation Section */
 .top-navigation {
-	background-color: #fff
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #DDD;
+	z-index: 9999;
 }
 .top-navigation > .content {
 		height: 70px;
+
 }
 .top-navigation .logo {
-	/*margin-top: 15px - why not?*/
+	/* margin-top: 15px - why not? */
 	height: 70px;
 }
 .top-navigation .links {
@@ -86,7 +89,7 @@ div {
 	color: #838994; 
 	font-size: 16px; 
 	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased; /* make font cleaner */
 }
 .top-navigation .links li {
 	display: inline-block;
@@ -102,6 +105,7 @@ div {
 }
 /* starting big pic part */
 .introduction {
+	
 	background-image: url('/Users/helcionobre/Documents/Classes/FEWD/Projects/startup-landing-page-clone/images/first-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -109,6 +113,7 @@ div {
 	height: 45.938rem;
 	overflow: auto;
 }
+
 h1, h3 {
 	color: white;
 	text-align: center;
@@ -116,16 +121,16 @@ h1, h3 {
 }
 h1 {
 	font-size: 3.0rem;
-	margin-top: 4rem;
+	margin-top: 17.5rem;
 }
 h3 {
 	font-size: 1.5rem;
-	margin-top: 1.0rem;
+	margin-top: 1.563rem;
 }
 .buttons {   /* fixed centalization of button creating new class */
 	color: white;
 	text-align: center;
-	margin: 0 auto;
+	margin-top: 1.563rem;
 }
 .big-button {
 	text-shadow: none;
@@ -136,13 +141,22 @@ h3 {
 	font-size: 1.125rem;
 	background-color: #f15a29;
 	border-color: #f15a29;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
 	color: white;
 }
 .big-button:hover {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+
+/* start middle section with three pics */
+.cases .content {
+	margin-top: 7.875rem;
+	color: #1d1e21;
+	text-align: center;
+}
+.cases h2 {
+	font-size: 3rem;
+	font-weight: 300;
 }
 
