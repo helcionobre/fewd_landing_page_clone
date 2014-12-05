@@ -150,6 +150,7 @@ h3 {
 }
 
 /* start middle section with three pics */
+
 .cases .content {
 	margin-top: 7.875rem;
 	color: #1d1e21;
@@ -158,5 +159,30 @@ h3 {
 .cases h2 {
 	font-size: 3rem;
 	font-weight: 300;
+	margin: 1.625rem 0 3.125rem;
 }
 
+.cases .devices {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 5rem;
+}
+
+.cases .devices li {
+	width: 33.333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4rem;
+	float: left;
+}
+
+.caption h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+	color: #1d1e21;
+}
