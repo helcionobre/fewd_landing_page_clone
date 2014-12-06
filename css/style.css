@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: LightGray;
+/*	background-color: LightGray;*/
    font-family: 'Roboto', sans-serif; /* apply to whole doc */
 }
 ol, ul {
@@ -54,9 +54,9 @@ table {
 /* Trick to control borders and body */
 
 
-div {
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
 
 /* Start of Custom Styles */
  .content {
@@ -106,7 +106,7 @@ div {
 /* starting big pic part */
 .introduction {
 	
-	background-image: url('/Users/helcionobre/Documents/Classes/FEWD/Projects/startup-landing-page-clone/images/first-background.jpg');
+	background-image: url('images/first-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
